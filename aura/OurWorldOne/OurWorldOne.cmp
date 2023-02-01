@@ -1,0 +1,5 @@
+<aura:component >
+    <aura:attribute Name ="Message" type ="String"/>
+    {!v.Message}
+    <c:OurWorldOne/>
+</aura:component>

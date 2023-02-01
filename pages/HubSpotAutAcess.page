@@ -1,0 +1,5 @@
+<apex:page controller="HubSpotAcessController">
+    <apex:form >
+        <apex:commandButton value="LoginHub" action="{!methodAcess}"/>
+    </apex:form> 
+</apex:page>

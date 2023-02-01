@@ -1,0 +1,9 @@
+<apex:page >
+    <h1>
+        welcome to the world!
+    </h1>
+    <p>
+        A visualforce page look like this.
+    </p>
+    
+</apex:page>

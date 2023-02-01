@@ -1,0 +1,5 @@
+<apex:page sidebar="true" showHeader=" true">
+    <apex:pageBlock title=" CRM SLAESFORCE TRAINING"> </apex:pageBlock>
+
+   
+</apex:page>

@@ -1,0 +1,5 @@
+<aura:component >
+    <aura:attribute name ="Email" type="String" default="Lets Rock it!"/>
+    {!v.Email}
+    <lightning:button label="Touch Me" onClick="{!v.handlerMessage}"/>
+</aura:component>

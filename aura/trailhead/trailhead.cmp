@@ -1,0 +1,4 @@
+<aura:component >
+	<p> Hi babes how are you ?</p>
+    <c:trailheadApp1/>
+</aura:component>

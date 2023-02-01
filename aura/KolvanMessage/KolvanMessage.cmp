@@ -1,0 +1,5 @@
+<aura:component >
+    <aura:attribute name ="CallMe" type = "String" default=" Hello kolvan"/>
+    {!v.CallMe}
+    <lightning:button label = "Touch Me" onclick ="{!c.hand}"/>
+</aura:component>

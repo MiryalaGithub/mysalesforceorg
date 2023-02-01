@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:attribute Name ="Message" type ="String" default="Hello !Pushpa Party?"/>
+    {!v.Message}
+    <c:OurWorldOne Message="{!v.Message}"/>
+    <lightning:button label="Click Me" onclick="{!v.handlerClick}"/>
+</aura:component>

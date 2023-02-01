@@ -1,0 +1,4 @@
+<aura:component >
+    <aura:attribute name ="Var1" type = "String" default="This component is used for read only mode"/>	
+    <h1>	Component attribute value :{!v.Var1}</h1>
+</aura:component>

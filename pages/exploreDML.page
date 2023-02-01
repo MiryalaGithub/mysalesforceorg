@@ -1,0 +1,5 @@
+<apex:page controller="ExploreDMLController">
+    <apex:form >
+      <apex:commandButton value="Insert" action="{! insertRecord}"/>
+    </apex:form>
+</apex:page>

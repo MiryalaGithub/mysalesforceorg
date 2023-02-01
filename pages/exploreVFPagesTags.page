@@ -1,0 +1,7 @@
+<apex:page controller="exploreVFPageTagsController">
+    <apex:form >
+        <apex:inputText value="{! name}" id="name"/>
+        <apex:commandButton value="save" action="{! save}"/>
+        <apex:commandLink value="cancel" action="{!cancel}" />
+    </apex:form>
+</apex:page>

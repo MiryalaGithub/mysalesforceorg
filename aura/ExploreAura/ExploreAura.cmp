@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:attribute name ="Message" type ="String" default ="Hello Kolvan Corporation "/>
+    {!v.Message}
+    <c:ExploreAuraComponent1 Message="{!v.Message}"/>
+    <lightning:button   label="On Click Me" onclick="{c.handler}"/>
+</aura:component>

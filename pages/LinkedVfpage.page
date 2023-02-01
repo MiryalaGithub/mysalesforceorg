@@ -1,0 +1,5 @@
+<apex:page controller="LinkedHandlerClass" >
+    <apex:form >
+    <apex:commandButton value=" Login Link" action="{!methodLink}"/>
+    </apex:form>
+</apex:page>

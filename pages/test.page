@@ -1,0 +1,17 @@
+<apex:page >
+    <script>
+       function show(){
+           console.log('I am show with out parameters');
+       }
+    	function callMe(name){
+            console.log('Call me with name :'+name);
+        }
+    </script>
+    <apex:form >
+        <apex:commandButton value="Submit" onclick="show()"/>
+        <apex:commandButton value="Static" onclick="callMe('Satish')"/>
+        <apex:commandButton value="Global" onclick="callMe('{$User.FirstName}')"/>
+        
+        
+    </apex:form>
+</apex:page>

@@ -1,0 +1,6 @@
+({
+	clickhelper : function() {
+        console.log('**********');
+		
+	}
+})

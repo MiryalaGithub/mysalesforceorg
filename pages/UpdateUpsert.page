@@ -1,0 +1,7 @@
+<apex:page controller="UpdateUpsertDML" >
+    <apex:form >
+    <apex:commandButton value="insert" action="{! insertRecord}"/>
+    
+    </apex:form>
+    
+</apex:page>
